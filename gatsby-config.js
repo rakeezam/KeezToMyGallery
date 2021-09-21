@@ -4,6 +4,7 @@ module.exports = {
     title: "Keez To My Gallery",
   },
   plugins: [
+    'gatsby-plugin-postcss',
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
