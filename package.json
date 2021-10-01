@@ -15,7 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "antd": "^4.16.13",
+    "@mui/material": "^5.0.2",
     "gatsby": "^3.13.1",
     "gatsby-plugin-gatsby-cloud": "^3.2.0",
     "gatsby-plugin-image": "^1.14.0",
