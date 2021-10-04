@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { makeStyles, ThemeProvider, createTheme } from '@material-ui/core/styles';
 import { Button } from '@material-ui/core';
-import Header from './header'
-import CardContainer from './card-container'
+import Header from '../components/header'
+import CardContainer from '../components/card-container'
 
 const theme = createTheme({
   palette: {
