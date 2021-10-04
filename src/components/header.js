@@ -1,4 +1,6 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
+
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Toolbar, Button } from '@material-ui/core';
 
@@ -24,7 +26,7 @@ const Header = () => {
           <Typography variant="h4" component="h1">
             Keez To My Gallery 
           </Typography>
-          <Button>About</Button>
+          <Button> <Link to="/about">About</Link></Button>
         </Toolbar>
       {/* <AppBar />  */}
       </div>
