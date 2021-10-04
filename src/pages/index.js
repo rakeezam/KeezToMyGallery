@@ -1,8 +1,6 @@
 import * as React from 'react'
 import { makeStyles, ThemeProvider, createTheme } from '@material-ui/core/styles';
-import { Button } from '@material-ui/core';
-import Header from '../components/header'
-import CardContainer from '../components/card-container'
+import Layout from '../components/layout'
 
 const theme = createTheme({
   palette: {
@@ -18,8 +16,8 @@ const theme = createTheme({
 
 const IndexPage = () => 
      <ThemeProvider theme={theme}>
-      <Header />
-      {/* <CardContainer /> */}
+      <Layout/>
+      <p>An exploration of my interests and hobbies</p>
     </ThemeProvider>
 
 

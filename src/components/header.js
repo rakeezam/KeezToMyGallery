@@ -18,7 +18,6 @@ const Header = () => {
 
   return (
     <>
-      <title>Keez To My Gallery</title>
       {/* <h1>Keez To My Gallery</h1> */}
        <div className={classes.header}>
       {/* <AppBar position="static"/>  */}
@@ -30,8 +29,6 @@ const Header = () => {
         </Toolbar>
       {/* <AppBar />  */}
       </div>
-      <p>An exploration of my interests and hobbies</p>
-    
     </>
   )
 }
