@@ -18,16 +18,13 @@ const Header = () => {
 
   return (
     <>
-      {/* <h1>Keez To My Gallery</h1> */}
        <div className={classes.header}>
-      {/* <AppBar position="static"/>  */}
         <Toolbar className={classes.toolbar}>
           <Typography variant="h4" component="h1">
             Keez To My Gallery 
           </Typography>
           <Button> <Link to="/about">About</Link></Button>
         </Toolbar>
-      {/* <AppBar />  */}
       </div>
     </>
   )
