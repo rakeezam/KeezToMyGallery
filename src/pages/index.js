@@ -1,22 +1,11 @@
 import * as React from 'react'
-import { makeStyles, ThemeProvider, createTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/core/styles';
+import theme from '../styles/theme'
 import Layout from '../components/layout'
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: '#F7E1D7'
-    },
-    background: {
-      default: '#FFFFFF'
-    }
-  },
-});
-
 
 const IndexPage = () => 
      <ThemeProvider theme={theme}>
-      <Layout/>
+      <Layout pageTitle="Home"/>
       <p>An exploration of my interests and hobbies</p>
     </ThemeProvider>
 

@@ -4,9 +4,9 @@ import { Link } from 'gatsby'
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Toolbar, Button } from '@material-ui/core';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(({palette}) => ({
   header: {
-    backgroundColor: theme.palette.primary.main
+    backgroundColor: palette.primary.main
   },
   toolbar: {
       justifyContent: 'space-between'
@@ -23,7 +23,8 @@ const Header = () => {
           <Typography variant="h4" component="h1">
             Keez To My Gallery 
           </Typography>
-          <Button> <Link to="/about">About</Link></Button>
+          <Link to="/">Home</Link>
+          <Link to="/about">About</Link>
         </Toolbar>
       </div>
     </>
