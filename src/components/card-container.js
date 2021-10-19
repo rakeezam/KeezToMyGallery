@@ -5,11 +5,9 @@ import Moonlight from '../images/moonlight.png'
 
 const useStyles = makeStyles((theme) => ({
   card: {
-    backgroundColor: theme.palette.primary.main
+    backgroundColor: theme.palette.primary.main,
+    maxWidth: '30%'
   },
-  toolbar: {
-      justifyContent: 'space-between'
-  }
 }));
 
 const CardContainer = () => {
@@ -18,20 +16,15 @@ const CardContainer = () => {
   return (
     <>
        
-    <Card sx={{ maxWidth: 345 }} className={classes.card} >
+    <Card className={classes.card} >
       <CardMedia
         component="img"
-        height="140"
+        height="300"
         image={Moonlight}
-        alt="green iguana"
+        alt="Church at night with moon shining"
       />
-      <CardContent>
-       
-          <p> Lizard </p>
-     
-         <p> Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica </p>
-  
+      <CardContent>     
+          <p> Edinburgh </p>
       </CardContent>
     </Card>
 

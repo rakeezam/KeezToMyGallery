@@ -2,7 +2,6 @@ import * as React from 'react'
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from '../styles/theme'
 import Layout from '../components/layout'
-import { Link } from 'gatsby'
 
 const AboutPage = () => {
   return (
